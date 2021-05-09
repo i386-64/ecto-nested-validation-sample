@@ -1,0 +1,5 @@
+defmodule Fiona.Repo do
+  use Ecto.Repo,
+    otp_app: :fiona,
+    adapter: Ecto.Adapters.Postgres
+end
